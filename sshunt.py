@@ -28,8 +28,8 @@ def load_password_list(filepath):
     return passwords
 
 if __name__ == "__main__":
-    host = "192.168.1.10"  
-    port = 22  
+    host = "192.168.1.X"  
+    port = 22 # ssh port 
     username = "root"  
     password_file = "passwords.txt"  
 
